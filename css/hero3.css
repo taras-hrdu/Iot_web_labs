@@ -1,0 +1,93 @@
+.section__title{
+    width: 385.35px;
+    height: 100px;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 50px;
+    color: #0B132A;
+    margin-left: 520px;
+    text-align: center;
+    padding-top: 73px;
+}
+
+.section__paragraph{
+    width: 486.27px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: #4F5665;
+    margin-left: 474px;
+} 
+
+.rectangle1{    
+    border: 2px solid #F53838;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-right: 40px;
+    width: 350.46px;
+    height: 230px;
+    background: #FFFFFF; 
+}
+
+.rectangle2{    
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-right: 40px;
+    width: 350.46px;
+    height: 230px;
+    background: #FFFFFF; 
+}
+
+.rectangle3{    
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    width: 350.46px;
+    height: 230px;
+    background: #FFFFFF;    
+}
+
+.rectangle__title{
+    width: 145.67px;
+    height: 5px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #0B132A;
+    margin-left: 88px;
+}
+
+.rect__paragraph{
+    font-size: 14px;
+    line-height: 30px;
+    color: #4F5665;
+    margin-left: 90px;
+}
+
+.rating{
+    margin-left: 267px;
+    margin-top: -42px;
+}
+
+.star__img{
+    margin-left: 8px;
+}
+
+.reviews__img{
+    position: absolute;
+    margin-left: -62px;
+}
+
+.review__text{
+    width: 285.89px;
+    height: 100px;
+    font-size: 16px;
+    line-height: 30px;
+    align-items: center;
+    color: #0B132A;
+    margin-left: 26px;
+    margin-top: 26px;
+}
+
