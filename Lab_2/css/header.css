@@ -1,0 +1,67 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.burger__img{
+    width: 30px;
+    height: 30px;
+}
+
+.header__menu{
+    display: none;
+    width: 32px;
+    cursor: pointer;
+}
+
+.header__menu > img{
+    min-width: 100%;
+}
+
+.header__menu-icon{
+    width: 40px;
+}
+
+.header__nav ul{
+    display: flex;
+}
+
+.header__nav-item{
+    margin-right: 40px;
+    font-size: 1rem;
+    color: #4F5665;
+}
+
+.header__title{
+    font-size: 20px;
+    margin-left: -80px;
+    font-weight: 600;
+}
+
+.header__sign-up{
+    border: 1px solid #F53855;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background: #FFFFFF;
+    width: 160px;
+    color: #F53855;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-right: 196px;
+}
+
+.header__sign-in{
+    display: flex;
+    font-weight: 600;
+    color: #0B132A; 
+    margin-right: -80px;
+    border: 0;
+    background: #FFFFFF;
+}
+
+.header__img{
+    width: 35px;
+    height: 36.23px;
+    margin-left: 150px;
+}
