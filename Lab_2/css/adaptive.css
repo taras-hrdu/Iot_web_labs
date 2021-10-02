@@ -1,0 +1,512 @@
+@media only screen and (max-width: 1200px){
+    .container{
+        margin-left: 230px;
+    }
+
+    .header__img{
+        position: absolute;
+        margin-left: -120px;
+    }
+
+    .header__sign-in{
+        margin-left: 40px;
+    }
+
+    .header__sign-up{
+        margin-left: 100px;
+    }
+
+    .hero__inner{
+        width: 400px;
+    }
+
+    .hero__title{
+        font-size: 35px;
+        margin-left: -40px;
+    }
+
+    .hero__paragraph{
+        margin-left: -40px;
+    }
+
+    .hero_buttons{
+        margin-left: -40px;
+    }
+
+    .hero{
+        background: url(../images/hero-image.svg) no-repeat 95% 260px;
+        background-size: 450px;
+    }
+
+    .container3{
+        margin-left: -170px;
+    }
+
+    .hero2__img{
+        position: absolute;
+        width: 500px;
+        height: 500px;
+    }
+
+    .hero__title2{
+        margin-top: -50px;
+    }
+
+    .section3{
+        margin-left: -180px;
+    }
+
+    .container5{
+        margin-left: 90px;
+        display:inline;
+    }
+
+    .rectangle1{
+        margin-left: 340px;
+        margin-bottom: 30px;
+    }
+    
+    .rectangle2{
+        margin-left: 340px;
+        margin-bottom: 30px;
+    }
+
+    .rectangle3{
+        margin-left: 340px;
+    }
+
+    .container6{
+        width: 740px;
+    }
+
+    .subscribe_buttons{
+        margin-left: 550px;
+    }
+
+    .default-button{
+        margin-top: 20px;
+        width: 130px;
+    }
+    .footer__paragraph{
+        margin-right: -210px;
+    }
+
+    .footer__title{
+        margin-left: 150px;
+    }
+
+    .footer__img2{
+        position: absolute;
+        margin-left: 750px;
+    }
+}
+
+@media only screen and (max-width: 992px){
+    .header__img{
+        margin-left: -130px;
+        width: 30px;
+        height: 30px;
+    }
+
+    .header__title {
+        margin-left: -95px;
+    }
+
+    .header__nav-item{
+        margin-right: 10px;
+    }
+
+    .hero__title{
+        font-size: 25px;
+        width: 250px;
+        margin-left: -50px;
+    }
+
+    .hero__paragraph{
+        width: 250px;
+        margin-left: -50px;
+    }
+
+    .hero_buttons{
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+
+    .hero{
+        background: url(../images/hero-image.svg) no-repeat 97% 260px;
+        background-size: 450px;
+    }
+
+    .hero2__img{
+        margin-left: -10px;
+        position: absolute;
+        width: 350px;
+        height: 350px;
+    }
+
+    .container3{
+        margin-top: -140px;
+        margin-left: -350px;
+
+    }
+
+    .hero__title2{
+        margin-bottom: -50px;
+        font-size: 20px;
+    }
+
+    .hero__paragraph2 {
+        width: 380px;
+    }
+
+    .section3 {
+        margin-left: -300px;
+    }
+
+    .rectangle1{
+        margin-left: 240px;
+    }
+    
+    .rectangle2{
+        margin-left: 240px;
+    }
+
+    .rectangle3{
+        margin-left: 240px;
+    }
+
+    .container6{
+        margin-left: 85px;
+        width: 600px;
+    }
+
+    .subscribe__title{
+        width: 250px;
+        font-size: 25px;
+    }
+
+    .default-button{
+        width: 100px;
+        margin-left: -100px;
+        margin-top: 10px;
+    }
+
+    .footer__paragraph{
+        margin-left: 100px;
+        margin-right: -300px;
+    }
+
+    .footer__title{
+        margin-left: 90px;
+    }
+
+    .footer__img2{
+        margin-left: 550px;
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .header__menu{
+        display: block;
+    }
+
+    .header__sign-in{
+        display: none;
+    }
+
+    .header__sign-up{
+        display: none;
+    }
+
+    .header__nav{
+        background: #e7ecff;
+        position: fixed;
+        top: 72px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin-top: 0;
+        clip-path: circle(0 at top left);
+        transition: clip-path 0.9s ease-in;
+    }
+
+    .header__nav.open{
+        clip-path: circle(1000px at top);
+    }
+
+    .header__nav ul{
+        flex-direction: column;
+        height: 100%;
+    }
+
+    .header__nav .header__nav-item{
+        margin-right: 0;
+        padding-top: 10vh;
+    }
+
+    .header__nav a{
+        font-weight: 500;
+        display: block;
+        font-size: 32px;
+    }
+
+    .burger__img{
+        margin-left: -10px;
+    }
+
+    .header__img{
+        margin-left: -170px;
+    }
+
+    .header__title{
+        margin-left: -135px;
+    }
+    
+    .hero{
+        background: url(../images/hero-image.svg) no-repeat 445% 200px;
+        background-size: 450px;
+    }
+
+    .hero__title{
+        margin-top: -30px;
+        margin-left: -100px;
+        font-size: 20px;
+    }
+
+    .hero__paragraph{
+        margin-left: -100px;
+        font-size: 14px;
+    }
+
+    .hero_buttons{
+        margin-top: -50px;
+        margin-left: 160px;
+        font-size: 14px;
+    }
+
+    .hero__title2{
+        font-size: 20px;
+        width: 200px;
+        margin-bottom: 10px;
+        margin-left: -200px;
+    }
+
+    .hero__paragraph2 {
+        width: 300px;
+        font-size: 14px;
+        margin-left: -200px;
+    }
+
+    .hero-item{
+        margin-left: -150px;
+    }
+
+    .hero2__img{
+        width: 270px;
+        height: 270px;
+        margin-top: 50px;
+    }
+
+    .section3{
+        margin-left: -400px;   
+    }
+
+    .section__title{
+        font-size: 20px;
+        margin-bottom: -25px;
+        margin-left: 455px;
+    }
+
+    .section__paragraph{
+        font-size: 14px;
+        margin-left: 400px;
+    }
+
+    .rectangle1{
+        margin-left: 70px;
+    }
+    
+    .rectangle2{
+        margin-left: 70px;
+    }
+
+    .rectangle3{
+        margin-left: 70px;
+    }
+
+    .container6{
+        margin-left: 45px;
+        width: 400px;
+    }
+
+    .subscribe__title{
+        width: 250px;
+        font-size: 20px;
+    }
+
+    .subscribe__paragraph{
+        font-size: 14px;
+    }
+
+    .footer__paragraph{
+        display: none;
+    }
+
+    .footer__img{
+        margin-left: -110px;
+    }
+
+    .footer__title{
+        display: none;
+    }
+
+    .footer__img2{
+        display: none;
+    }
+
+    .default-button{
+        margin-top: 120px;
+        margin-left: -270px;
+        font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    .header__img{
+        margin-left: -190px;
+        width: 25px;
+        height: 25px;
+    }
+
+    .header__title{
+        margin-left: -160px;
+    }
+
+    .hero_buttons{
+        margin-left: 270px;
+        margin-top: -100px;
+    }
+
+    .hero{
+        background: url(../images/hero-image.svg) no-repeat 445% 200px;
+        background-size: 0px;
+    }
+
+    .hero__title2{
+        margin-left: -350px;
+        font-size: 16px;
+    }
+
+    .hero__paragraph2{
+        margin-left: -350px;
+        font-size: 12px;
+        width: 250px;
+        margin-top: -10px;
+    }
+
+    .hero2__img{
+        width: 150px;
+        height: 150px;
+        margin-top: 200px;
+    }
+
+    .hero-item{
+        margin-left: -320px;
+    }
+
+    .section__title{
+        font-size: 16px;
+        margin-left: 380px;
+        margin-bottom: -40px;
+    }
+
+    .section__paragraph{
+        font-size: 12px;
+        text-align: center;
+        margin-left: 420px;
+        width: 300px;
+    }
+
+    .rectangle1{
+        width: 250.46px;
+        height: 190px;
+        margin-left: 50px;
+    } 
+    
+    .rectangle2{
+        width: 250.46px;
+        height: 190px;
+        margin-left: 50px;
+    } 
+
+    .rectangle3{
+        width: 250.46px;
+        height: 190px;
+        margin-left: 50px;
+    } 
+
+    .reviews__img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .rectangle__title{
+        font-size: 13px;
+    }
+
+    .rect__paragraph{
+        font-size: 12px;    
+    }
+    
+    .review__text{
+        font-size: 12px;
+        width: 185.89px;
+        margin-top: 20px;
+    }
+
+    .rating{
+        margin-left: 190px;
+    }
+
+    .container6{
+        width: 300px;
+        margin-left: 15px;
+    }
+
+    .subscribe__title{
+        font-size: 16px;
+        margin-left: 45px;
+        margin-top: 25px;
+    }
+
+    .subscribe__paragraph{
+        margin-left: 45px;
+    }
+
+    .default-button{
+        margin-left: -370px;
+    }
+
+    .footer__img{
+        margin-left: -100px;
+    }
+
+    .footer__paragraph{
+        display: none;
+    }
+
+    .footer__img{
+        margin-left: -145px;
+    }
+
+    .footer__title{
+        display: none;
+    }
+
+    .footer__img2{
+        display: none;
+    }
+}
+
