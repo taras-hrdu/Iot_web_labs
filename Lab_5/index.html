@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Shop</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div class="page">
+        <h1 class="shop">Big Shop</h1>
+        <section class="items">
+            <div class="second__title">
+                <h2 class="second__title-class">Your options:</h2>
+            </div>
+            <form>
+                <div class="items__find-menu">
+                    <label id="find__card-label" class="label__find-menu">Find card:</label>
+                </div>
+                <div>
+                    <input id="items__find-card" class="items__find-card-class">
+                </div>
+                <button id="items__find-button" class="items__find-button-class">
+                    Find
+                </button>
+                <button id="items__cancel-button" class="items__cancel-button-class">
+                    Cancel
+                </button>
+            </form>
+            <form>
+                <div class="items__sort-menu">
+                    <label class="label__sort-menu">Sort by:</label>
+                </div>
+                <div>
+                    <select id="items__sort-parameter"  class="sort__select-form">
+                        <option id="items__sort-asc" value="none__option">None</option>
+                        <option id="items__sort-asc" value="first__option">Ascending</option>
+                        <option id="items__sort-desc" value="second__option">Descending</option>
+                    </select>
+                    
+                </div>
+            </form>
+            <form>
+                <div class="items__total-menu">Total:</div>
+                    <div class="items__calculate-total-menu">
+                        <select id="items__calculate-total">
+                            <option value="none">None</option>
+                            <option value="price">Price</option>
+                            <option value="weight">Weight</option>
+                        </select>
+                        <label>---------</label>
+                        <label id="items__total-value" class="items__total-value">?</label>
+                    </div>
+                    <div class="third__title">
+                        <label class="third__title-class">Create card:</label>
+                    </div>
+                    <div>
+                        <p>Name:</p>
+                        <input type="text"  id="items__create-title" class="items__create-name-class" required>
+                        <span class="error" id="error__title"></span>
+                    </div>
+                    <div>
+                        <p>Price:</p>
+                        <input type="text" id="items__create-price" class="items__create-price-class" required>
+                        <span class="error" id="error__price"></span>
+                    </div>
+                    <div>
+                        <p>Weight:</p>
+                        <input type="text" id="items__create-weight" class="items__create-weight-class" required>
+                        <span class="error" id="error__weight"></span>
+                    </div>
+                    <div>
+                        <p>Count:</p>
+                        <input type="text" id="items__create-count" class="items__create-count-class" required>
+                        <span class="error" id="error__count"></span>
+                    </div>
+                    <button id="items__submit-button" class="items__submit-button-class">
+                        Submit
+                    </button>
+                    <div class="items__img-container">
+                        <ul id="items-list">
+                        </ul>
+                    </div>
+            </form>     
+        </section>
+    </div>
+    <script type="module" src="./js/script.js"></script>
+</body>
+</html>
