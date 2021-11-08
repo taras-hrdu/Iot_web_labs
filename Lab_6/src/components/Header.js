@@ -29,6 +29,9 @@ const useStyles = makeStyles((theme) => ({
     colorText:{
         color:'#5AFF3D',
     },
+    appbarNav:{
+        flexGrow: '1',
+    },
     container:{
         textAlign: 'center',
     },
@@ -54,6 +57,10 @@ export default function Header() {
                     <h1 className={classes.appbarTitle}>
                         My<span className={classes.colorText}>Weapons.</span>
                     </h1>
+                    <h3 className={classes.appbarNav}>Catalog</h3>
+                    <h3 className={classes.appbarNav}>Buy</h3>
+                    <h3 className={classes.appbarNav}>Reviews</h3>
+                    <h3 className={classes.appbarNav}>Contacts</h3>
                     <IconButton>
                         <SortIcon className={classes.icon} />
                     </IconButton>

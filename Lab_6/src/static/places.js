@@ -1,16 +1,30 @@
 const places = [
     {
-        title: 'Green',
+        title: 'Z-9',
         description:
-            "The Maldives are home to some of the world's most ravishing islands, but it's the sea, which truly makes these islands shine. Luminous aquamarine waters with a crystal clarity lap upon these dazzling white shores, which barely peek above the Indian Ocean.",
-        imageUrl: process.env.PUBLIC_URL + '/assets/more.jpg',
+            "Мисливський самозарядний карабін «Zbroyar Z-9».Вільно-вивішений ствол довжиною 13 (330 мм) виготовлений з нержавіючої сталі. Усі компоненти - стандартної маси (група затвора, буфер) і стандартної міцності для роботи з боєприпасами групи 308Win.",
+        imageUrl: process.env.PUBLIC_URL + '/assets/weapon1.jpg',
         time: 1500,
     },
     {
-        title: 'Bora Bora',
+        title: 'Z-15 10,5" SSB',
         description:
-            'Shaped like a giant sombrero, this lush volcanic island stars in countless South Pacific fantasies. The focal point and best asset of this tropical beauty is its ravishing lagoon in technicolor turquoise. Fish, turtles, sharks, and rays swim in the clear waters.',
-        imageUrl: process.env.PUBLIC_URL + '/assets/more3.jpg',
+            'Мисливський самозарядний карабін «Zbroyar Z-15».Контур полегшений, тип (довжина газовідводної системи) - «Carbine». Усі компоненти - стандартної маси (група затвора, буфер) і стандартної міцності для роботи з боєприпасами групи 308Win.',
+        imageUrl: process.env.PUBLIC_URL + '/assets/wepon2.jpg',
+        time: 1500,
+    },
+    {
+        title: 'Zbroyar Z-008 gen III Precision',
+        description:
+            'Версія карабіна Z-008-III для точної стрільби на великі дистанції. Ствол з нержавіючої сталі.Випускається в довжинах стволів 20” 24”.Усі компоненти - стандартної маси (група затвора, буфер) і стандартної міцності для роботи з боєприпасами групи 308Win.',
+        imageUrl: process.env.PUBLIC_URL + '/assets/weapon3.jpg',
+        time: 1500,
+    },
+    {
+        title: 'Zbroyar Z-10 20" Gen III',
+        description:
+            'Zbroyar Z-10 20" гвинтівка на базі  платформи AR-10 із системою відведення газів «Direct Impingement» (DI) калібру 308Win. Сумісний за різьбленням і посадковими розмірами із зарубіжними аналогами*. Усі компоненти - стандартної маси (група затвора, буфер).',
+        imageUrl: process.env.PUBLIC_URL + '/assets/weapon4.jpg',
         time: 1500,
     },
 ];

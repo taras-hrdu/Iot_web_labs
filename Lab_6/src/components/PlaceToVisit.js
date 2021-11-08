@@ -9,6 +9,9 @@ const useStyles = makeStyles((theme) => ({
         display: 'flex',
         justifyContent: 'center',
         alignItems: 'center',
+        flexDirection:'row',
+        flexWrap:'wrap',
+
     }
 }));
 export default function () {
@@ -17,6 +20,8 @@ export default function () {
         <div className={classes.root}>
             <ImageCard place={places[0]} />
             <ImageCard place={places[1]} />
+            <ImageCard place={places[2]} />
+            <ImageCard place={places[3]} />
         </div>
     );
 }
