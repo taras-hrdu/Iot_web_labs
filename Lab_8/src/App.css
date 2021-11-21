@@ -1,0 +1,68 @@
+.App {
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background: rgb(73, 79, 82);
+  color: white;
+  background-color: transparent;
+  font-family: "Nunito";
+}
+
+.nav-links {
+  width: 40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  font-family: "Nunito";
+}
+
+.nav-text {
+  color: rgb(57, 219, 12);
+  font-family: "Nunito";
+}
+
+.buttonView {
+  font-size: 25px;
+  margin-left: 60px;
+  color: lightblue;
+  border-radius: 10px;
+  padding: 5px;
+  border: 0;
+}
+
+button:hover {
+  background: orange;
+}
+
+.buttonViewMore {
+  transition: all 0.5s ease;
+  color: #fff;
+  border: 3px solid white;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 1;
+  font-size: 17px;
+  background-color: transparent;
+  padding: 10px;
+  outline: none;
+  border-radius: 4px;
+}
+
+.buttonViewMore:hover{
+  color: #001F3F;
+  background-color: #fff;
+}
+
+.inputSearch {
+  font-weight: bold;
+  height: 35px;
+  border-radius: 4px;
+  border: 0;
+}
